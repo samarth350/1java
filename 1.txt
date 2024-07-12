@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+int main() {
+    cout << "Try programiz.pro"<<"\n";
+    int age;
+    cout<<"enter age";
+    cin>>age;
+     if(age>=18){
+        cout<<"adult";
+    }
+    else if(age<10){
+        cout<<"not adult";
+    }
+    return 0;
+}
+
